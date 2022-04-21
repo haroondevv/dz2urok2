@@ -1,11 +1,8 @@
-//
-//  main.swift
-//  dz2urok2
-//
-//  Created by Харун Хихиза on 22/4/22.
-//
+var drink1 = Product(name: "Coca-Cola", price: 65, barCode: "123qqq")
+var snacks = Product(name: "Chips", price: 100, barCode: "123www")
+var store = Store()
 
-import Foundation
-
-print("Hello, World!")
+store.addProductToBasket(product: drink1)
+store.addProductToBasket(product: snacks)
+store.showProductInfo()
 

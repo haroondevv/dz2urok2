@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		94BD7D7E2811EC71003E2247 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD7D7D2811EC71003E2247 /* main.swift */; };
+		94BD7D852811ECAC003E2247 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD7D842811ECAC003E2247 /* Product.swift */; };
+		94BD7D872811ECEE003E2247 /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD7D862811ECEE003E2247 /* Drinks.swift */; };
+		94BD7D892811ED0D003E2247 /* Snacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD7D882811ED0D003E2247 /* Snacks.swift */; };
+		94BD7D8B2811ED1E003E2247 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD7D8A2811ED1E003E2247 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		94BD7D7A2811EC71003E2247 /* dz2urok2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dz2urok2; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BD7D7D2811EC71003E2247 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94BD7D842811ECAC003E2247 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		94BD7D862811ECEE003E2247 /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
+		94BD7D882811ED0D003E2247 /* Snacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snacks.swift; sourceTree = "<group>"; };
+		94BD7D8A2811ED1E003E2247 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				94BD7D7D2811EC71003E2247 /* main.swift */,
+				94BD7D842811ECAC003E2247 /* Product.swift */,
+				94BD7D862811ECEE003E2247 /* Drinks.swift */,
+				94BD7D882811ED0D003E2247 /* Snacks.swift */,
+				94BD7D8A2811ED1E003E2247 /* Store.swift */,
 			);
 			path = dz2urok2;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BD7D8B2811ED1E003E2247 /* Store.swift in Sources */,
+				94BD7D872811ECEE003E2247 /* Drinks.swift in Sources */,
 				94BD7D7E2811EC71003E2247 /* main.swift in Sources */,
+				94BD7D892811ED0D003E2247 /* Snacks.swift in Sources */,
+				94BD7D852811ECAC003E2247 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
